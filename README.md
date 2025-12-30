@@ -1,13 +1,13 @@
-# 💼 CareerForge – MERN Stack Job Application Portal
+#  CareerForge – MERN Stack Job Application Portal
 
-## 🧩 Project Overview
+##  Project Overview
 **CareerForge** is a full-stack **Job Application and Recruitment Portal** built with the **MERN stack**.  
 It connects **job seekers, employers, and companies** on a single platform, offering a seamless hiring experience.  
 The platform also includes a **blog section** for tech updates and career tips, a **resume builder**, and an optional **ATS resume checker** to help candidates optimize their resumes for modern recruiting systems.
 
 ---
 
-## 🚀 Key Features / Modules
+##  Key Features / Modules
 - **User Authentication & Authorization** (JWT-based + Google OAuth)
 - **Three User Roles**: User, Employer, and Company
 - **OAuth Integration**: Login/Signup with Google
@@ -23,7 +23,7 @@ The platform also includes a **blog section** for tech updates and career tips, 
 
 ---
 
-## 👥 User Roles
+##  User Roles
 | Role | Description | Permissions |
 |------|--------------|--------------|
 | **User (Job Seeker)** | Searches and applies for jobs, builds resume, reads blogs | Create account, edit profile, upload resume, apply for jobs |
@@ -33,40 +33,40 @@ The platform also includes a **blog section** for tech updates and career tips, 
 
 ---
 
-## 🖥️ Page / Screen List (Frontend)
-### 🔐 Authentication
+##  Page / Screen List (Frontend)
+###  Authentication
 - Login / Register Page (Email/Password)
 - **Google OAuth Login/Signup**
 - Password Reset Page
 - Session Management & JWT Tokens
 
-### 👤 User Section
+###  User Section
 - Dashboard (applied jobs, recommendations)
 - Resume Builder Page  
 - Profile Page  
 - Job Listings & Job Details Page  
 - Blog Page (Tech News, Articles)
 
-### 🧑‍💼 Employer Section
+###  Employer Section
 - Post a Job Page  
 - Manage Applicants Page  
 - Employer Dashboard  
 
-### 🏢 Company Section
+###  Company Section
 - Company Dashboard  
 - Manage Job Posts & Employer Access  
 
-### ⚙️ Admin (Optional)
+###  Admin (Optional)
 - Manage Users / Jobs / Blogs  
 
-### 📱 General
+###  General
 - Home Page  
 - About / Contact Page  
 - Blog Reader Page  
 
 ---
 
-## 🗄️ Database Schema (Rough Draft)
+##  Database Schema (Rough Draft)
 **Tables (PostgreSQL with Prisma):**
 - **users** → `{ id, name, email, password?, googleId?, provider?, avatar?, role, resume, profileInfo }`
 - **jobs** → `{ id, title, description, companyId, employerId, applicants: [userId], status }`
@@ -79,7 +79,7 @@ The platform also includes a **blog section** for tech updates and career tips, 
 
 ---
 
-## 🧰 Tech Stack (Tentative)
+##  Tech Stack (Tentative)
 **Frontend:** React.js, React Router, Tailwind CSS / Material UI  
 **Backend:** Node.js, Express.js, Passport.js  
 **Database:** PostgreSQL (Prisma ORM)  
@@ -93,7 +93,7 @@ The platform also includes a **blog section** for tech updates and career tips, 
 
 ---
 
-## 🔄 Workflow (Simplified)
+##  Workflow (Simplified)
 ```text
 [User] → registers → builds resume → applies for job
        ↳ gets feedback & notifications
@@ -107,7 +107,7 @@ The platform also includes a **blog section** for tech updates and career tips, 
 
 ---
 
-## 🎯 Expected Outcomes
+##  Expected Outcomes
 - A **fully functional MERN-based Job Portal** with multi-role access  
 - A **live demo website** showcasing full-stack CRUD operations  
 - Resume Builder & optional ATS integration for added professionalism  
@@ -117,7 +117,7 @@ The platform also includes a **blog section** for tech updates and career tips, 
 
 ---
 
-## 🌟 Future Enhancements
+##  Future Enhancements
 - Real-time chat between job seekers & employers  
 - AI-based job recommendations  
 - Integration with LinkedIn / GitHub APIs  
